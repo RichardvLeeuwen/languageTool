@@ -29,7 +29,11 @@ public class LanguageButton extends JButton {
         super(name);
         this.setFont(new Font("Helvitca", Font.PLAIN, 40));
         this.setBackground(Color.lightGray);
-        this.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e){turnBackgroundGreen(); }});
+        this.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                turnBackgroundGreen();
+            }
+        });
     }
 
 }
