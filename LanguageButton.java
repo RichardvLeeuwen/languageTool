@@ -5,7 +5,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
 
-public class LanguageButton extends JButton {
+public class LanguageButton extends JButton implements ActionListener {
 
     private void turnBackgroundGreen() {
         this.setBackground(new Color(37, 245, 78));
@@ -17,11 +17,7 @@ public class LanguageButton extends JButton {
         this.setHorizontalTextPosition(SwingConstants.CENTER);
         this.setFont(new Font("Helvitca", Font.PLAIN, 40));
         this.setBackground(Color.lightGray);
-        this.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                turnBackgroundGreen();
-            }
-        });
+        this.addActionListener(this);
 
     }
 
@@ -29,11 +25,10 @@ public class LanguageButton extends JButton {
         super(name);
         this.setFont(new Font("Helvitca", Font.PLAIN, 40));
         this.setBackground(Color.lightGray);
-        this.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                turnBackgroundGreen();
-            }
-        });
+        this.addActionListener(this);
     }
 
+    public void actionPerformed(ActionEvent e) {
+        turnBackgroundGreen();
+    }
 }
