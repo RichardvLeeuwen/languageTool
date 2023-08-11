@@ -1,1 +1,2 @@
-Initial commits for my language tool
+# Language Tools Interface
+This is a basic language tools interface written in Java Swing that combines all the language tools I use into one interface. This interface allows me to more easily keep track of my language exercises, motivates me to keep a streak, and is a fun little exercise to get acquainted with Java Swing.
