@@ -39,7 +39,7 @@ public class GUI {
         infoPanel.setBorder(BorderFactory.createEmptyBorder(5, 10, 10, 10));
         infoPanel.setBackground(new Color(255, 218, 185));
 
-        JLabel languageInfoLabel = new JLabel("Test language information");
+        JLabel languageInfoLabel = new JLabel("Language information");
         languageInfoLabel.setFont(new Font("Helvitca", Font.BOLD, 40));
         languageInfoLabel.setForeground(new Color(65, 105, 225));
         languageInfoLabel.setHorizontalAlignment(SwingConstants.LEFT);
