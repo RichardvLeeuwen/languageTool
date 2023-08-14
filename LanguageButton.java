@@ -73,7 +73,7 @@ public class LanguageButton extends JButton implements ActionListener {
         } else {
             g2d.drawImage(image, x, 10, null);
             int y = ((h - fm.getHeight()) / 2) + fm.getAscent();
-            g2d.drawString(getText(), x, y + 35);
+            g2d.drawString(getText(), x, y + 35); // fear the magic numbers!!
         }
 
         ;
