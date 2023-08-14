@@ -67,7 +67,7 @@ public class GUI {
         LanguageButton duolingoButton = new LanguageButton("Duolingo", "duolingo_owl.png");
         LanguageButton ankiButton = new LanguageButton("Anki");
         LanguageButton audioLessonsButton = new LanguageButton("Audio lessons");
-        LanguageButton bookLessonsButton = new LanguageButton("Book lessons");
+        LanguageButton bookLessonsButton = new LanguageButton("Book lessons", "stack_books.png");
 
         setInfoPannel();
 
